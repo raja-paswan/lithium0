@@ -21,7 +21,7 @@ const createBlog = async function (req, res) {
     if (!title) {
       return res.status(400).send({ status: false, msg: "title is required" });
     }
-
+    
     if (!body) {
       return res.status(400).send({ status: false, msg: "body is required" });
     }

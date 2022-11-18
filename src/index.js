@@ -10,7 +10,7 @@ app.use(express.json());
 //__________________________ Connection : MongoDB Cluster ___________________________________________
 
 mongoose
-  .connect("mongodb+srv://mr_rupam:uttam@cluster0.eaxynkv.mongodb.net/group7Database?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://rkpraja12:ua5o4Chk3yL3Qdbq@cluster0.rvxvxpr.mongodb.net/test12222", {
     useNewUrlParser: true,
   })
   .then(() => console.log("MongoDB is Connected"))
